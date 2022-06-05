@@ -122,35 +122,36 @@ footer p{
 /* colors */
 
 body {
-    background-color: #0F0A0A;
+    background-color: #031927;
 }
 
 footer {
-    background-color: #F5EFED;
+    background-color: #DECDF5;
 }
 
-p, a {
-    color: #0F0A0A;
+h2, p, a {
+    color: #031927;
 }
 
 h1 {
-    color: #F5EFED;
+    color: #DECDF5;
 }
 
 .card {
-    background-color: #2292A4;
+    background-color: #247BA0;
 }
 
 .card:hover {
-    background-color: #38a1b1;
+    background-color: #1B98E0;
 }
 
 footer a:hover{
-    color: #f00;
+    color: #FF220C;
 }
-
-a:hover{
-    color: #F5EFED;
+.card h2:hover,
+.card p:hover,
+.card a:hover{
+    color: #DECDF5;
 }
 
 /* transitions */
@@ -159,6 +160,6 @@ a:hover{
     transform:scale(1.05);
 }
 
-p, a, .card {
-    transition: 250ms;
+h2, p, a, .card {
+    transition: 250ms;;
 }
